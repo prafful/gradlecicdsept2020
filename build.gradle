@@ -24,3 +24,9 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+bootJar {
+	archiveBaseName = "demojar"
+	archiveVersion = "1.0.0"
+	archiveFileName = "demojar.jar"
+}
